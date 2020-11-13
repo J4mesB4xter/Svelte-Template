@@ -1,4 +1,4 @@
 <script>
     let name = "John"
 </script>
-<h1>{name}</h1>
+<h1>Hello {name}!</h1>
