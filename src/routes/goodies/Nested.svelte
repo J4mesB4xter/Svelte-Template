@@ -1,1 +1,1 @@
-<p>Above: an ice king, not to be confused with a nice king.</p>
+<p>Above: an Ice King, not to be confused with a nice king.</p>

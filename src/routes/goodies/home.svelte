@@ -3,6 +3,11 @@
     let name = 'Friend';
     let src = 'Images/iceking.jpg';
     let string = 'Welcome to my Template. I hope you find something worth looking at eventually. It aint much yet, but its <i>honest<i> work'
+
+    let count = 0;
+    function handleClick() {
+        count += 1;
+    }
 </script>
 
 
@@ -20,3 +25,7 @@
 <img {src} alt="{name} is yet to succeed">
 
 <Nested/>
+
+<button on:click={handleClick}>
+    Click to prove you love the Ice King 3000: {count} {count === 1 ? 'time' : '<3'}
+</button>
