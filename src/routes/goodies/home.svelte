@@ -5,6 +5,7 @@
     let string = 'Welcome to my Template. I hope you find something worth looking at eventually. It aint much yet, but its <i>honest<i> work'
 
     let count = 0;
+    $: doubled = count * 2;
     function handleClick() {
         count += 1;
     }
@@ -29,3 +30,5 @@
 <button on:click={handleClick}>
     Click to prove you love the Ice King 3000: {count} {count === 1 ? 'time' : '<3'}
 </button>
+
+<p>{count} doubled is {doubled}</p>
