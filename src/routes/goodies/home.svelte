@@ -1,5 +1,5 @@
 <script>
-    import Nested from './Nested.svelte';
+    import Nested from './nested.svelte';
     let name = 'Friend';
     let src = 'Images/iceking.jpg';
     let string = 'Welcome to my Template. I hope you find something worth looking at eventually. It aint much yet, but its <i>honest<i> work'
@@ -9,7 +9,7 @@
     function handleClick() {
         count += 1;
     }
-    $: if (count === 3000) {
+    $: if (count > 3000) {
         alert("All is right in the world.");
         count = 3000;
 }
@@ -29,7 +29,7 @@
 
 <img {src} alt="{name} is yet to succeed">
 
-<Nested/>
+<nested/>
 
 <button on:click={handleClick}>
     Click to prove you love the Ice King 3000: {count} {count === 1 ? 'time' : '<3'}
