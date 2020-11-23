@@ -9,6 +9,10 @@
     function handleClick() {
         count += 1;
     }
+    $: if (count === 3000) {
+        alert("All is right in the world.");
+        count = 3000;
+}
 </script>
 
 
