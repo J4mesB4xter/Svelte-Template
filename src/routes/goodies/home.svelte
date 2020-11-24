@@ -29,7 +29,11 @@
 
 <img {src} alt="{name} is yet to succeed">
 
-<nested/>
+
+<Nested/>
+
+<br>
+<br>
 
 <button on:click={handleClick}>
     Click to prove you love the Ice King 3000: {count} {count === 1 ? 'time' : '<3'}
