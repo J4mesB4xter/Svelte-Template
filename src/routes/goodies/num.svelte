@@ -1,4 +1,5 @@
 <script>
+	import Nestednum from './Nestednum.svelte';
 	let numbers = [1, 2, 3, 4];
 
 	function addNumber() {
@@ -14,4 +15,10 @@
 	Add a number
 </button>
 
-<p>I did not write this; for later dissection... when I'm in a different mood I want to reforge this page.</p>
+<p>
+Above: a basic function from Svelte's new user tutorial
+<br>
+Below: a negative version of the above function which I modified in another file and nested here
+</p>
+
+<Nestednum/>
