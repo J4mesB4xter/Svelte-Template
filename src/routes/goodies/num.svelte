@@ -15,6 +15,14 @@
 	Add a number
 </button>
 
+<style>
+	p {
+		color: black;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 2em;
+	}
+</style>
+
 <p>
 Above: a basic function from Svelte's new user tutorial
 <br>
