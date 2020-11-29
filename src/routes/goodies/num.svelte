@@ -21,6 +21,10 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 2em;
 	}
+
+	button {
+		color: green;
+	}
 </style>
 
 <p>
