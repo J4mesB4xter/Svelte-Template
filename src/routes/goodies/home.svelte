@@ -22,6 +22,12 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 2em;
     }
+    button {
+        border: lightblue;
+        background-color: yellow;
+        color: red;
+    }
+	
 </style>
 <h1>Hello {name}!</h1>
 
