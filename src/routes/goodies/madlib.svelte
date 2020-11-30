@@ -29,6 +29,7 @@ scary verb ending with -ed = <input bind:value={pkg.scary_verbed}><br>
 noun precious to you = <input bind:value={pkg.important_noun}><br>
 abstract thing = <input bind:value={pkg.thing1}><br>
 concrete thing = <input bind:value={pkg.thing2}><br>
-adject ending with -ing = <input bind:value={pkg.adjecting}><br>
-
+adjective ending with -ing = <input bind:value={pkg.adjecting}><br>
+<p>scroll down when done</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <Nested3 {...pkg}/>
