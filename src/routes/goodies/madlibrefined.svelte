@@ -1,7 +1,7 @@
 <script>
     import Nested3 from './nested3.svelte';
 
-    var pkg = {
+    var words = {
         job: '',
         category_of_measurement: '',
         emotion: '',

@@ -1,7 +1,7 @@
 <script>
     import Nested3 from './nested3.svelte';
 
-    var pkg = {
+    var words = {
         job: '',
         category_of_measurement: '',
         emotion: '',
@@ -15,21 +15,21 @@
         thing1: '',
         thing2: '',
         adjecting: '',
-    }
+    };
 </script>
-job = <input bind:value={pkg.job}><br>
-metric = <input bind:value={pkg.category_of_measurement}><br>
-emotion = <input bind:value={pkg.emotion}><br>
-noun = <input bind:value={pkg.noun}><br>
-verb = <input bind:value={pkg.verb}><br>
--ly adverb = <input bind:value={pkg.adverb1}><br>
--ly adverb = <input bind:value={pkg.adverb2}><br>
--ly adverb = <input bind:value={pkg.adverb3}><br>
-scary verb ending with -ed = <input bind:value={pkg.scary_verbed}><br>
-noun precious to you = <input bind:value={pkg.important_noun}><br>
-abstract thing = <input bind:value={pkg.thing1}><br>
-concrete thing = <input bind:value={pkg.thing2}><br>
-adjective ending with -ing = <input bind:value={pkg.adjecting}><br>
+job = <input bind:value={words.job}><br>
+metric = <input bind:value={words.category_of_measurement}><br>
+emotion = <input bind:value={words.emotion}><br>
+noun = <input bind:value={words.noun}><br>
+verb = <input bind:value={words.verb}><br>
+-ly adverb = <input bind:value={words.adverb1}><br>
+-ly adverb = <input bind:value={words.adverb2}><br>
+-ly adverb = <input bind:value={words.adverb3}><br>
+scary verb ending with -ed = <input bind:value={words.scary_verbed}><br>
+noun precious to you = <input bind:value={words.important_noun}><br>
+abstract thing = <input bind:value={words.thing1}><br>
+concrete thing = <input bind:value={words.thing2}><br>
+adjective ending with -ing = <input bind:value={words.adjecting}><br>
 <p>scroll down when done</p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<Nested3 {...pkg}/>
+<Nested3 {...words}/>
