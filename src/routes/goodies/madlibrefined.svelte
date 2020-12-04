@@ -21,7 +21,7 @@
 <ul>
     {#each words as word}
     <li>
-        {word.value} == <input bind:value={word.value}>
+        <p>{words.word}: </p><input bind:value={words.word.value}>
     </li>
     {/each}
 </ul>
