@@ -15,6 +15,15 @@ export let adjecting;
 </script>
 
 
+<style>
+    p {
+        background : rgb(162, 0, 255);
+        color : rgb(0, 0, 0);
+        justify-content : center;
+        font-size: 40px;
+    }
+</style>
+
 <p>
 Welcome to StrexCorp!<br><br>
 
