@@ -18,9 +18,12 @@
 ];
 </script>
 <style>
-    p {
+    ul {
         Background: green;
         Border: blue;
+        height: 800px;
+        width: 400px;
+        justify-content: center;
     }
 </style>
 

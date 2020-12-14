@@ -17,6 +17,19 @@
         adjecting: '',
     };
 </script>
+<style>
+    li {
+        Background: green;
+        Border: blue;
+        color: white;
+        font-size: larger;
+        height: 400px;
+        width: 600px;
+        flex-direction: row;
+        align-content: center;
+    }
+</style>
+<li>
 job = <input bind:value={words.job}><br>
 metric = <input bind:value={words.category_of_measurement}><br>
 emotion = <input bind:value={words.emotion}><br>
@@ -31,5 +44,6 @@ abstract thing = <input bind:value={words.thing1}><br>
 concrete thing = <input bind:value={words.thing2}><br>
 adjective ending with -ing = <input bind:value={words.adjecting}><br>
 <p>scroll down when done</p>
+</li>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <Nested3 {...words}/>
