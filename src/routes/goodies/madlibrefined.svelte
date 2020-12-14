@@ -17,6 +17,12 @@
         {category: 'adjective ending with -ing', value: ''},
 ];
 </script>
+<style>
+    p {
+        Background: green;
+        Border: blue;
+    }
+</style>
 
 <ul>
     {#each words as word}
