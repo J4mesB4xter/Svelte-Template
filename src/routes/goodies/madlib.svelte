@@ -19,9 +19,10 @@
 </script>
 <style>
     li {
-        Background: green;
-        Border: blue;
-        color: white;
+        Background: rgb(85, 236, 85);
+        Border: rgb(0, 0, 255);
+        border-width: 3px;
+        color: rgb(255, 255, 255);
         font-size: larger;
         height: 400px;
         width: 600px;
