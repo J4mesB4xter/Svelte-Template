@@ -17,15 +17,7 @@
         {category: 'adjective ending with -ing', value: ''},
 ];
 </script>
-<style>
-    ul {
-        Background: green;
-        Border: blue;
-        height: 800px;
-        width: 400px;
-        justify-content: center;
-    }
-</style>
+
 
 <ul>
     {#each words as word}
